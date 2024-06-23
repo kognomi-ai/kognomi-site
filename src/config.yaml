@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: Kognomi
+  site: 'https://www.kognomi.com'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: Kognomi
+    template: '%s — Kognomi'
+  description: "\U0001F680 Your 27/7 friend in need."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Kognomi
     images:
       - url: '~/assets/images/default.png'
         width: 1200
