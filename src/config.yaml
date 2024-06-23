@@ -11,7 +11,7 @@ metadata:
   title:
     default: Kognomi
     template: '%s — Kognomi'
-  description: "\U0001F680 Your 27/7 friend in need."
+  description: '- Your 27/7 friend in need.'
   robots:
     index: true
     follow: true
