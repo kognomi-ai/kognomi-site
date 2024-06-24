@@ -6,6 +6,7 @@ import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
 
 const metadata = {
   title: 'Kognomi — Your 24x7 friend in need.',
@@ -49,40 +50,69 @@ const metadata = {
     subtitle="An empathetic AI friend available 24/7 to provide a supportive, non-judgmental space for you to share your thoughts and feelings."
     items={[
       {
+        title: '24/7 Availability',
+        description:
+          'Kognomi is always there for you, ready to lend an ear at any time of day or night, ensuring you never feel alone.',
+        icon: 'tabler:message-chatbot',
+      },
+      {
+        title: 'Empathetic Listening',
+        description:
+          'Our AI is designed to be an understanding and empathetic friend, providing support without judgment or advice, just like a real friend would.',
+        icon: 'tabler:heart',
+      },
+      {
+        title: 'Safe and Secure',
+        description:
+          'Your privacy is our priority. All conversations are confidential and secured with advanced encryption to protect your data.',
+        icon: 'tabler:apps',
+      },
+      {
+        title: 'Personalized Conversations',
+        description:
+          'Kognomi adapts to your unique needs and preferences, making each interaction feel personal and tailored to your situation.',
+        icon: 'tabler:bell-ringing',
+      },
+    ]}
+  />
+
+  <!-- FAQs Widget ******************* -->
+
+  <FAQs
+    title="Frequently Asked Questions"
+    subtitle="Do you have questions about Kognomi? These might answer some of them."
+    tagline="FAQs"
+    classes={{ container: 'max-w-6xl' }}
+    items={[
+      {
         title: 'What is Kognomi?',
         description:
           'Kognomi is an empathetic AI friend available 24/7 to provide a supportive, non-judgmental space for you to share your thoughts and feelings.',
-        icon: 'tabler:message-chatbot',
       },
       {
         title: 'Is Kognomi a replacement for therapy?',
         description:
           'No, Kognomi is not a replacement for professional therapy. It serves as a supportive friend until you can access professional help.',
-        icon: 'tabler:heart',
       },
       {
         title: 'How does Kognomi support mental health?',
         description:
           'Kognomi listens like a friend, offering empathetic support, personalized chat styles, and resources to help guide you towards professional therapy.',
-        icon: 'tabler:apps',
       },
       {
         title: 'How can I join the Kognomi community?',
         description:
           'Join our waitlist to receive updates, exclusive access to beta testing, and early insights into our journey. Visit our website and sign up today!',
-        icon: 'tabler:bell-ringing',
       },
       {
         title: 'Is my data safe with Kognomi?',
         description:
           'We take your privacy seriously. All conversations with Kognomi are confidential, and we use advanced security measures to protect your data.',
-        icon: 'tabler:shield-lock',
       },
       {
         title: 'When will Kognomi be available?',
         description:
           'We’re working hard to bring Kognomi to you soon. Join our waitlist to stay updated on our progress and be the first to know when we launch.',
-        icon: 'tabler:arrow-big-down-lines',
       },
     ]}
   />
